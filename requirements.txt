@@ -1,0 +1,9 @@
+requests>=2.32
+python-dotenv>=1.0
+pandas>=2.2
+pyarrow>=17
+matplotlib>=3.9
+scikit-learn>=1.5
+jupyterlab>=4.2
+demoparser2>=0.42.2  # 0.42.1 cannot read demos after the ~12 Nov 2026 CS2 update
+zstandard>=0.23

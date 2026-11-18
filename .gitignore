@@ -1,0 +1,24 @@
+# secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# data (large / personal) - keep folder structure only
+data/raw/**
+data/processed/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.dem
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# private working notes (kept locally)
+PROGRESS.md
+EXPERIMENT_2.md
